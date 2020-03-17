@@ -1,0 +1,157 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Khula', sans-serif;
+    background-color: #0d0d0d;
+}
+
+/*HAMBURGER*/
+.hamburger_container{
+    width:80px;
+    position: relative;
+    float: right;
+    margin-right:14.5em;
+    margin-top:5.75em;
+}
+
+.bar{
+    width: 100%;
+    height: 0.5em;
+    margin-top: 0.5em;
+
+    background-color: white;
+}
+
+/*BACKGROUND ANDREA*/
+.bg{
+    position: absolute;
+}
+
+
+.leftcontainer{
+    width:49%;
+    display: inline-block;
+    position: relative;
+    left: 16em;
+    top: 17.5em;
+}
+
+
+.rightcontainer{
+    width:49%;
+    display: inline-block;
+    position: relative;
+    left: 16em;
+    top:12.5em;
+}
+
+.middlecontainer{
+    display:none;
+    /* DA CAPIRE COME POSIZIONARLO*/
+}
+
+/*ANDREA TORROMEO*/
+.name{
+    width: 30em;
+    margin: 0 auto;
+    position:relative;
+    top:400px;
+
+    color: white;
+}
+
+.andrea{
+    margin:0;
+
+    font-size: 3.75em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.designer{
+    margin: 0;
+
+
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+    color:#EF0D33;
+}
+
+/*PROJECTS*/
+.project_card{
+        width: 1360px;
+        margin:1390px auto 0;
+        /*
+        se uso l'overflow  l'immagine si taglia perchè esce dal container, senza è esteticamente migliore, ma è sbagliata sotto il profilo dei codici?
+        overflow: hidden; */
+}
+
+.bg_project_container{
+    width:1500px;
+    margin: 1400px auto 0;
+    position: absolute;
+    left:150px;
+}
+
+.bottom_smoke{
+    width: 100%;
+    opacity: 0.7;
+}
+
+.projects{
+    margin:0;
+
+    font-size: 3.75em;
+    color:white;
+}
+
+
+.line{
+    margin:0;
+
+    font-size: 3.75em;
+    font-weight: 500;
+    color:#EF0D33
+}
+
+.proj_description{
+    max-width: 33.43em;
+    margin:0px;
+    
+    color:white;
+    font-size: 1.5em;
+}
+
+.img_container{
+    max-width: 22.5em;
+    float: right;
+    position:relative;
+    top:-25em;
+}
+
+.mockup{
+    width:100%;
+}
+
+.readmore{
+    max-width: 25em;
+    height: 5em;
+    margin-top: 4.375em;
+    padding: 0 114px;
+
+    border: 2px solid #EF0D33;
+    background-color: transparent;
+    color:white;
+    text-transform: uppercase;
+    
+}
+
+.cta_readmore{
+    text-transform: none;
+}
